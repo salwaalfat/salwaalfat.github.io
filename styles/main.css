@@ -1,0 +1,154 @@
+
+/* start font */
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Freckle+Face&display=swap');
+/* end font*/
+
+body {
+    background-color:burlywood;
+    font-family:neucha,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-family:freckle face, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 26px;
+    color:rgb(71, 67, 67);
+}
+h2{
+    font-size-adjust: initial;
+    font-size: 24px; 
+    color:brown;
+}
+h3{
+    font-size:18px;
+    color: rgb(70, 61, 119);
+    text-align: center;
+   
+}
+.container{
+    background-color: white;
+}
+
+.logo{
+    text-align: center;
+}
+.jumbotron h1{
+    margin: 20px 35px;
+    font-size: 20px;
+}
+.jumbotron h3{
+    margin: 20px 35px;
+    font-size: 20px;
+}
+
+.footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(70, 61, 119);
+    background-color:rgb(226, 233, 134);
+    padding: 10px 0px;
+    font-size: 11px;
+    text-align: center;
+}
+
+/* style berbentuk class - END */
+
+/* Menu header - BEGIN */
+.menu-header {
+    background-color:rgb(226, 233, 134);
+    border-radius: 40px;
+    box-shadow:
+        0 3px 5px -1px rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(99, 68, 68, 0.14),
+        0 1px 18px 0 rgba(252, 249, 249, 0.12);
+}
+.menu-header li {
+    display: inline-block;
+}
+.menu-header a {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: mediumvioletred;
+    text-decoration: none;
+    padding: 10px 20px;
+    letter-spacing: 1px;
+}
+.menu-header a:hover {
+    color: rgb(16, 11, 95);
+}
+/* menu header - END */
+
+/*  card home - BEGIN */
+.cardhome{
+    background-color:rgb(126, 143, 219);
+    background-image: url(../images/pattern.jpg);
+    width: 30%;
+    height: 150px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 0 4px 8px 0 rgba(241, 229, 229, 0.2);
+    display:inline-block;
+    text-align: center;
+}
+.cardhed{
+    border-bottom: solid 1px red;
+    padding: 10px 0px;
+}
+.cardhed h3{
+    margin: 0px;
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.cardbody {
+    padding: 10px;
+    text-align: center;
+}
+.cardbody p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    text-align: center;
+}
+.cardflex{
+    display: flex;
+    justify-content: center;
+}
+
+/* card home - END */
+
+/*news- BEGIN */
+.news-item{
+    background-color: lavender;
+    width: 40%;
+    display: inline-block;
+}
+.news-item h4{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.news-item h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+.news-item p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+}
+.news-item a{
+    display: inline;
+    background-color: lightblue;
+    color: #333333;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-decoration: none;
+}
+
+/* news- END */
+
+.section{
+    background-color: cornflowerblue;
+}
+
